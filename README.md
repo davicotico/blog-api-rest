@@ -106,7 +106,7 @@ Esta API permite consultar un blog en particular por su ID numérico
 
 ### Endpoint
 - **URL:** `http://localhost:8080/api/v1/blog/{ID}`
-- **Método:** `POST`
+- **Método:** `GET`
 - **Autenticación:** Ninguna
 
 ## Consultar comentarios de un blog
@@ -117,7 +117,7 @@ Esta API permite consultar la lista de comentarios de un blog en particular por 
 
 ### Endpoint
 - **URL:** `http://localhost:8080/api/v1/blog/{ID}/comentarios`
-- **Método:** `POST`
+- **Método:** `GET`
 - **Autenticación:** Ninguna
 
 ## Consultar el historial de cambios de un blog
@@ -128,5 +128,5 @@ Esta API permite consultar todo el historial de cambios de un blog en particular
 
 ### Endpoint
 - **URL:** `http://localhost:8080/api/v1/blog/{ID}/historial`
-- **Método:** `POST`
+- **Método:** `GET`
 - **Autenticación:** Ninguna
