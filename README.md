@@ -27,7 +27,7 @@ Ejecutar la aplicación
 ./mvnw spring-boot:run
 ```
 
-# API Documentation
+# Documentación de la API
 
 ## Crear Autor
 
@@ -99,3 +99,34 @@ El cuerpo de la solicitud debe ser un JSON con la siguiente estructura:
 }
 ```
 
+## Consultar Blog
+
+### Descripción
+Esta API permite consultar un blog en particular por su ID numérico
+
+### Endpoint
+- **URL:** `http://localhost:8080/api/v1/blog/{ID}`
+- **Método:** `POST`
+- **Autenticación:** Ninguna
+
+### Consultar comentarios de un blog
+
+### Descripción
+
+Esta API permite consultar la lista de comentarios de un blog en particular por su ID numérico
+
+### Endpoint
+- **URL:** `http://localhost:8080/api/v1/blog/{ID}/comentarios`
+- **Método:** `POST`
+- **Autenticación:** Ninguna
+
+### Consultar el historial de cambios de un blog
+
+### Descripción
+
+Esta API permite consultar todo el historial de cambios de un blog en particular por su ID numérico
+
+### Endpoint
+- **URL:** `http://localhost:8080/api/v1/blog/{ID}/historial`
+- **Método:** `POST`
+- **Autenticación:** Ninguna
