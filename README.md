@@ -109,7 +109,7 @@ Esta API permite consultar un blog en particular por su ID numérico
 - **Método:** `POST`
 - **Autenticación:** Ninguna
 
-### Consultar comentarios de un blog
+## Consultar comentarios de un blog
 
 ### Descripción
 
@@ -120,7 +120,7 @@ Esta API permite consultar la lista de comentarios de un blog en particular por 
 - **Método:** `POST`
 - **Autenticación:** Ninguna
 
-### Consultar el historial de cambios de un blog
+## Consultar el historial de cambios de un blog
 
 ### Descripción
 
