@@ -71,7 +71,7 @@ El cuerpo de la solicitud debe ser un JSON con la siguiente estructura:
   "idTema": 1,
   "titulo": "Es un titulo prueba",
   "contenido": "test",
-  "periodicidad": "D",
+  "periodicidad": "DIARIO",
   "permiteComentarios": true
 }
 ```
@@ -96,6 +96,30 @@ El cuerpo de la solicitud debe ser un JSON con la siguiente estructura:
   "nombreCompleto": "Wendy Ferreira",
   "correoElectronico": "a123@test.com",
   "puntuacion": 1
+}
+```
+
+## Actualizar Blog
+
+### Descripción
+Esta API permite actualizar un blog existente.
+
+### Endpoint
+- **URL:** `http://localhost:8080/api/v1/blog/3`
+- **Método:** `PUT`
+- **Autenticación:** Ninguna
+
+### Request Body
+El cuerpo de la solicitud debe ser un JSON con la siguiente estructura:
+
+```json
+{
+  "idAutor": 1,
+  "idTema": 2,
+  "titulo": "MODIFICADO",
+  "contenido": "test MODIFICADO",
+  "periodicidad": "SEMANAL",
+  "permiteComentarios": true
 }
 ```
 
